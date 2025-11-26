@@ -1,0 +1,16 @@
+CREATE TABLE Walmart_dasboard (Store INT,
+Date DATE,
+Weekly_Sales DECIMAL(12,2),
+Holiday_Flag INT,
+Temperature NUMERIC,
+Fuel_Price DECIMAL(5,3),
+CPI	DECIMAL(8,5),
+Unemployment DECIMAL(5,3)
+)
+
+SELECT * FROM Walmart_dasboard
+
+COPY Walmart_dasboard
+FROM 'D:\hr\Walmart_Sales.csv'
+DELIMITER ','
+CSV HEADER
