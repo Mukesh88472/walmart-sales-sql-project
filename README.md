@@ -28,7 +28,7 @@ CPI	Consumer Price Index
 Unemployment	Unemployment Rate
 🧠 Key Business Questions Answered
 
-Below are the 15 questions and their PostgreSQL queries (already provided earlier):
+Below are the 14 questions and their PostgreSQL queries (already provided earlier):
 
 Total weekly sales across all stores
 
